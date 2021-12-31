@@ -1,2 +1,2 @@
-# yardsale
+# Yard Sale
 Modelo de tienda
