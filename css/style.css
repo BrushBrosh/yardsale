@@ -28,13 +28,12 @@ body {
     place-items: center;
 }
 
-.signup {
+.signup, .account {
     width: 100vw;
     height: 100vh;
     display: grid;
     align-items: center;
     justify-content: center;
-    margin-top: 24px;
 }
 
 .form-container {
@@ -42,6 +41,7 @@ body {
     grid-template-rows: auto 1fr auto;
     width: 300px;
     justify-items: center;
+    margin-top: 24px;
 }
 
 .logo {
@@ -151,6 +151,13 @@ body {
     height: 50px;
 }
 
+.value {
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    font-weight: 300;
+    margin: 8px 0 32px 0;
+}
+
 .login-button {
     margin-top: 14px;
     margin-bottom: 30px
@@ -160,13 +167,13 @@ body {
     .logo {
         display: block;
     }
-    .signup-button {
+    .signup-button, .edit-button {
         width: 300px;
         position: absolute;
         bottom: 0;
         margin-bottom: 24px;
     }
-    .signup {
+    .signup, .account {
         align-items: flex-start;
     }
 }
